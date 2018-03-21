@@ -25,7 +25,7 @@ class Triangle
 
 
   def kind
-    binding.pry
+    # binding.pry
     if valid?
       triangulator(@x, @y, @z)
     else
