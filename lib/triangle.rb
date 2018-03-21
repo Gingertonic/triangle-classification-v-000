@@ -29,11 +29,13 @@ class Triangle
     if valid?
       triangulator(@x, @y, @z)
     else
-      begin
-        raise TriangleError
-      rescue TriangleError => error
-        error.message
-      end
+      raise TriangleError
+    end
+      # begin
+      #   raise TriangleError
+      # rescue TriangleError => error
+      #   error.message
+      # end
     end
   end
 end
