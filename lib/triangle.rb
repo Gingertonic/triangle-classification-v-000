@@ -10,7 +10,7 @@ class Triangle
   end
 
   def valid?
-    (@x > 0 && @y > 0 && @z > 0) && (@x + @y > @z) && (@y + @z > @x)
+    (@x > 0 && @y > 0 && @z > 0) && (@x + @y > @z) && (@y + @z > @x) && (@x + @z > @y)
   end
 
   def triangulator(x, y, z)
