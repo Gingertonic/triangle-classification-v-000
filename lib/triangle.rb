@@ -30,7 +30,6 @@ class Triangle
       triangulator(@x, @y, @z)
     else
       raise TriangleError
-    end
       # begin
       #   raise TriangleError
       # rescue TriangleError => error
